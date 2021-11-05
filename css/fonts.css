@@ -8,8 +8,7 @@
          url("/fonts/Manrope-ExtraBold.woff2") format("woff2"),
          /* Если браузер не поддерживает woff2, загрузит woff */
          url("/fonts/Manrope-ExtraBold.woff") format
-         ("woff"),
-         url("/fonts/Manrope-ExtraBold.ttf") format ("ttf"); /* Если браузер не поддерживает woff, загрузит ttf */
+         ("woff");
    } 
 
 @font-face {  
@@ -22,8 +21,7 @@
           url("/fonts/Manrope-Bold.woff2") format("woff2"),
           /* Если браузер не поддерживает woff2, загрузит woff */
           url("/fonts/Manrope-Bold.woff") format
-          ("woff"),
-          url("/fonts/Manrope-Bold.ttf") format ("ttf"); /* Если браузер не поддерживает woff, загрузит ttf */
+          ("woff");
  } 
 
  @font-face {  
@@ -36,8 +34,7 @@
           url("/fonts/Manrope-Medium.woff2") format("woff2"),
           /* Если браузер не поддерживает woff2, загрузит woff */
           url("/fonts/Manrope-Medium.woff") format
-          ("woff"),
-          url("/fonts/Manrope-Medium.ttf") format ("ttf"); /* Если браузер не поддерживает woff, загрузит ttf */
+          ("woff");
  } 
  
 @font-face { 
@@ -50,8 +47,7 @@
          url("/fonts/Manrope-Regular.woff2") format("woff2"),
          /* Если браузер не поддерживает woff2, загрузит woff */
          url("/fonts/Manrope-Regular.woff") format
-         ("woff"),
-         url("/fonts/Manrope-Regular.ttf") format ("ttf"); /* Если браузер не поддерживает woff, загрузит ttf */
+         ("woff");
   } 
 
 
