@@ -1,9 +1,98 @@
-body {
-    margin: 0;
-    font-family: "Manrope", sans-serif;
-    color: #18191f;
+* {
+  box-sizing: border-box;
 }
 
-h1,h2,h3,h4,p {
+body {
+    font-family: "Manrope", sans-serif;
+    color: #18191f;
+    background: linear-gradient(194.01deg, #D9E8EF 9.6%, #EAF2F5 89.64%);
+    height: 1000px;
+}
+
+h1,h2,h3,p {
   margin: 0;
 } 
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+position: sticky;
+z-index: 1;
+top: 0;
+padding: 26px 0;
+height: 72px;
+}
+
+.logo-img {
+cursor: pointer;
+vertical-align: middle;
+}
+
+nav {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 53%;
+}
+
+nav a {
+  font-weight: 700;
+  font-size: 14px;
+  color: #18191F;
+  margin: 0 16px;
+}
+.workspace {
+  position: relative;
+}
+
+.workspace-right {
+  position: absolute;
+  right: 0;
+  top: -80px;
+}
+
+.workspace-left {
+  width: 540px;
+}
+.workspace-left, .workspace-right {
+  display: inline-block;
+  vertical-align: middle;
+}
+.workspace-title {
+  font-weight: 800;
+  font-size: 72px;
+  margin-top: 219px;
+}
+
+.workspace-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  margin-top: 16px;
+}
+
+.icon-circle {
+  margin-top: 32px;
+}
+
+.line {
+  margin-left: 8px;
+  margin-bottom: 16px;
+  margin-right: 8px;
+}
+
+.description {
+  font-weight: 800;
+  font-size: 14px;
+  letter-spacing: 2px;
+  display: inline-block;
+  position: relative;
+  bottom: 20px;
+  left: 0;
+}
